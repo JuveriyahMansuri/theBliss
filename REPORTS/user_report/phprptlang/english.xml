@@ -1,0 +1,965 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ew-language date="2022/2/20" version="10.0.0" id="en" name="English" desc="English" author="e.World Technology Ltd.">
+  <!-- 
+	*** Important Notes:
+	1. Language ID should follow: https://developers.google.com/recaptcha/docs/language,
+	2. Locale settings are placed in a separate locale files under the "locales" folder,
+	3. Locale files must be named with language ID of language file (and converted to lowercase), e.g. en.json,
+	4. Locale files are ALWAYS used, regardless of whether the project is single language or multiple language.
+-->
+  <global>
+    <phrase id="aggregatecolon" value=": " />
+    <!-- v10 -->
+    <phrase id="aggregateequal" value="=" />
+    <!-- v10 -->
+    <phrase id="allrecords" value="All" />
+    <phrase id="alwaysask" value="Always ask for my user name and password" />
+    <phrase id="autologin" value="Auto login until I logout explicitly" />
+    <phrase id="backtologin" value="Back to Login Page" />
+    <phrase id="booleanno" value="No" />
+    <phrase id="booleanyes" value="Yes" />
+    <phrase id="breadcrumbdivider" value="/" />
+    <phrase id="browsernoflashsupport" value="Your browser does not support Flash player." client="1" />
+    <phrase id="buttonexport" value="Export" class="icon-export ewIcon" />
+    <!-- v8 -->
+    <phrase id="cancel" value="Cancel" client="1" />
+    <!-- v8 -->
+    <phrase id="cancelbtn" value="Cancel" client="1" />
+    <!-- v10 -->
+    <phrase id="chartorder" value="Order by" />
+    <phrase id="chartorderxasc" value="Labels Ascending" />
+    <phrase id="chartorderxdesc" value="Labels Descending" />
+    <phrase id="chartorderyasc" value="Values Ascending" />
+    <phrase id="chartorderydesc" value="Values Descending" />
+    <phrase id="clickrecaptcha" value="Please click reCAPTCHA" client="1" />
+    <!-- v9 -->
+    <phrase id="clicktodrilldown" value="Click to drill down" />
+    <phrase id="closebtn" value="Close" client="1" />
+    <!-- v10 -->
+    <phrase id="copytoclipboard" value="Copy to clipboard" />
+    <!-- v10 -->
+    <phrase id="countselected" value="%s selected" client="1" />
+    <!-- v9 -->
+    <phrase id="ctbsumhead" value="Summary" />
+    <!-- v10 -->
+    <phrase id="currentfilters" value="Current filters:" />
+    <phrase id="deletefilter" value="Delete filter" />
+    <!-- v8 -->
+    <phrase id="deletefilterconfirm" value="Delete filter %s?" client="1" />
+    <!-- v8 -->
+    <phrase id="drilldownallrecords" value="All records" />
+    <phrase id="drilldownfilters" value="Drill down filters:" />
+    <phrase id="enterfiltername" value="Enter filter name" client="1" />
+    <!-- v8 -->
+    <phrase id="entersenderemail" value="Please enter sender email" client="1" />
+    <phrase id="enterpropersenderemail" value="Exceed maximum sender email count or email address incorrect" client="1" />
+    <phrase id="enterrecipientemail" value="Please enter recipient email" client="1" />
+    <phrase id="enterproperrecipientemail" value="Exceed maximum recipient email count or email address incorrect" client="1" />
+    <phrase id="enterproperccemail" value="Exceed maximum cc email count or email address incorrect" client="1" />
+    <phrase id="enterproperbccemail" value="Exceed maximum bcc email count or email address incorrect" client="1" />
+    <phrase id="entersubject" value="Please enter subject" client="1" />
+    <phrase id="emailformsender" value="From" />
+    <phrase id="emailformrecipient" value="To" />
+    <phrase id="emailformcc" value="Cc" />
+    <phrase id="emailformbcc" value="Bcc" />
+    <phrase id="emailformsubject" value="Subject" />
+    <phrase id="emailformmessage" value="Message" />
+    <phrase id="emailformcontenttype" value="Send as" />
+    <phrase id="emailformcontenttypeurl" value="URL" />
+    <phrase id="emailformcontenttypehtml" value="HTML" />
+    <phrase id="emptylabel" value="(Empty)" />
+    <phrase id="enterpassword" value="Please enter password" client="1" />
+    <phrase id="enterpwd" value="Please enter password" client="1" />
+    <phrase id="entersearchcriteria" value="Please enter search criteria" />
+    <phrase id="enteruid" value="Please enter user ID" client="1" />
+    <phrase id="entervalidatecode" value="Please enter the validation code shown" client="1" />
+    <phrase id="exceedmaxemailexport" value="Exceed maximum export email count. Please try again later." />
+    <phrase id="exportchart" value="Exporting chart: " client="1" />
+    <phrase id="exportchartdata" value="Exporting chart data" client="1" />
+    <phrase id="exportcharterror" value="Failed to export chart: " client="1" />
+    <phrase id="exportingchart" value="Exporting chart (%c of %t), please wait..." client="1" />
+    <phrase id="exporttoemail" value="Email" class="icon-email ewIcon" client="1" />
+    <!-- v8 -->
+    <phrase id="exporttoexcel" value="Export to Excel" class="icon-excel ewIcon" />
+    <!-- v8 -->
+    <phrase id="exporttopdf" value="Export to PDF" class="icon-pdf ewIcon" />
+    <!-- v8 -->
+    <phrase id="exporttoword" value="Export to Word" class="icon-word ewIcon" />
+    <!-- v8 -->
+    <phrase id="fieldrequiredindicator" value="&lt;span class=&quot;ewRequired&quot;&gt;&amp;nbsp;*&lt;/span&gt;" />
+    <phrase id="filter" value="Filter" />
+    <!-- v8 -->
+    <phrase id="filtername" value="Filter name" client="1" />
+    <!-- v8 -->
+    <phrase id="filters" value="Filters" class="icon-filter ewIcon" />
+    <!-- v8 -->
+    <phrase id="generate" value="Generate" client="1" />
+    <!-- v10 -->
+    <phrase id="generatereporturl" value="Generate Report URL" client="1" />
+    <!-- v10 -->
+    <phrase id="generatesuccess" value="Success" />
+    <!-- v10 -->
+    <phrase id="homepage" value="Home" class="glyphicon glyphicon-home ewIcon" />
+    <!-- v8 -->
+    <phrase id="incorrectcreditcard" value="Incorrect credit card number" client="1" />
+    <phrase id="incorrectdate" value="Incorrect date (%s)" />
+    <!-- v10 -->
+    <phrase id="incorrectdateymd" value="Incorrect date, format = yyyy%smm%sdd" />
+    <phrase id="incorrectdatemdy" value="Incorrect date, format = mm%sdd%syyyy" />
+    <phrase id="incorrectdatedmy" value="Incorrect date, format = dd%smm%syyyy" />
+    <phrase id="incorrectshortdateymd" value="Incorrect date, format = yy%smm%sdd" />
+    <phrase id="incorrectshortdatemdy" value="Incorrect date, format = mm%sdd%syy" />
+    <phrase id="incorrectshortdatedmy" value="Incorrect date, format = dd%smm%syy" />
+    <phrase id="incorrectemail" value="Incorrect email" client="1" />
+    <phrase id="incorrectfield" value="Incorrect field" client="1" />
+    <phrase id="incorrectfloat" value="Incorrect floating point number" client="1" />
+    <phrase id="incorrectguid" value="Incorrect GUID" client="1" />
+    <phrase id="incorrectinteger" value="Incorrect integer" client="1" />
+    <phrase id="incorrectphone" value="Incorrect phone number" client="1" />
+    <phrase id="incorrectrange" value="Number must be between %1 and %2" client="1" />
+    <phrase id="incorrectregexp" value="Regular expression not matched" client="1" />
+    <phrase id="incorrectssn" value="Incorrect Social Security Number" client="1" />
+    <phrase id="incorrecttime" value="Incorrect time (hh:mm:ss)" client="1" />
+    <phrase id="incorrectzip" value="Incorrect ZIP code" client="1" />
+    <phrase id="invalidpostrequest" value="Invalid post request" />
+    <!-- v8 -->
+    <phrase id="invaliduidpwd" value="Incorrect user ID or password" />
+    <phrase id="language" value="Language" />
+    <phrase id="loading" value="Loading%s..." client="1" />
+    <phrase id="login" value="Login" />
+    <phrase id="loginoptions" value="Options" />
+    <!-- v8 -->
+    <phrase id="loginpage" value="Login Page" />
+    <phrase id="logout" value="Logout" />
+    <phrase id="lookuplink" value="Lookup - %s" class="glyphicon glyphicon-search ewIcon" />
+    <!-- v10 -->
+    <phrase id="messageok" value="OK" client="1" />
+    <!-- v9 -->
+    <phrase id="midnight" value="midnight" />
+    <!-- v10 -->
+    <phrase id="mobilemenu" value="Menu" />
+    <phrase id="monthjan" value="Jan" />
+    <phrase id="monthfeb" value="Feb" />
+    <phrase id="monthmar" value="Mar" />
+    <phrase id="monthapr" value="Apr" />
+    <phrase id="monthmay" value="May" />
+    <phrase id="monthjun" value="Jun" />
+    <phrase id="monthjul" value="Jul" />
+    <phrase id="monthaug" value="Aug" />
+    <phrase id="monthsep" value="Sep" />
+    <phrase id="monthoct" value="Oct" />
+    <phrase id="monthnov" value="Nov" />
+    <phrase id="monthdec" value="Dec" />
+    <phrase id="next" value="Next" />
+    <phrase id="noon" value="noon" />
+    <!-- v10 -->
+    <phrase id="nopermission" value="You do not have permission to access the page." />
+    <phrase id="norecord" value="No records found" client="1" />
+    <!-- v10 -->
+    <phrase id="noreportorcharts" value="No report or charts is selected for generation. Please check your report/charts settings." />
+    <phrase id="nodistinctcolvals" value="No distinct column values for SQL: " />
+    <phrase id="nulllabel" value="(Null)" />
+    <phrase id="of" value="of" client="1" />
+    <!-- v10 -->
+    <phrase id="page" value="Page" client="1" />
+    <!-- v10 -->
+    <phrase id="pagerfirst" value="First" />
+    <phrase id="pagerlast" value="Last" />
+    <phrase id="pagernext" value="Next" />
+    <phrase id="pagerprevious" value="Previous" />
+    <phrase id="password" value="Password" />
+    <phrase id="pleaseselect" value="Please select" client="1" />
+    <!-- v9 -->
+    <phrase id="popupall" value="(All)" client="1" />
+    <phrase id="popupfrom" value="From" client="1" />
+    <phrase id="popupnovalue" value="No value selected!" client="1" />
+    <phrase id="popupselect" value="Please Select" client="1" />
+    <phrase id="popupto" value="To" client="1" />
+    <phrase id="prev" value="Prev" />
+    <phrase id="primarykeyunspecified" value="Primary key unspecified" />
+    <phrase id="printerfriendly" value="Printer Friendly" class="icon-print ewIcon" />
+    <!-- v8 -->
+    <phrase id="group" value="Groups" />
+    <phrase id="groupsperpage" value="Groups per page" />
+    <phrase id="qtr1" value="1st Quarter" />
+    <phrase id="qtr2" value="2nd Quarter" />
+    <phrase id="qtr3" value="3rd Quarter" />
+    <phrase id="qtr4" value="4th Quarter" />
+    <phrase id="record" value="Records" client="1" />
+    <!-- v10 -->
+    <phrase id="recordsperpage" value="Page size" client="1" />
+    <!-- v10 -->
+    <phrase id="report" value="Reports" />
+    <phrase id="reportformtype" value="Report type" />
+    <!-- v10 -->
+    <phrase id="reportformprint" value="Print" />
+    <!-- v10 -->
+    <phrase id="reportformword" value="Word" />
+    <!-- v10 -->
+    <phrase id="reportformexcel" value="Excel" />
+    <!-- v10 -->
+    <phrase id="reportformpdf" value="PDF" />
+    <!-- v10 -->
+    <phrase id="reportformemail" value="Email" />
+    <!-- v10 -->
+    <phrase id="reportformusername" value="User name" />
+    <!-- v10 -->
+    <phrase id="reportformuserdefault" value="Administrator" />
+    <!-- v10 -->
+    <phrase id="reportformfiltername" value="Filter name" />
+    <!-- v10 -->
+    <phrase id="reportformfilternone" value="None" />
+    <!-- v10 -->
+    <phrase id="reportformfiltercurrent" value="Current" />
+    <!-- v10 -->
+    <phrase id="reportformpageoption" value="Pages" />
+    <!-- v10 -->
+    <phrase id="reportformallpages" value="All" />
+    <!-- v10 -->
+    <phrase id="reportformfirstpage" value="First" />
+    <!-- v10 -->
+    <phrase id="reportformsender" value="From" />
+    <!-- v10 -->
+    <phrase id="reportformrecipient" value="To" />
+    <!-- v10 -->
+    <phrase id="reportformcc" value="Cc" />
+    <!-- v10 -->
+    <phrase id="reportformbcc" value="Bcc" />
+    <!-- v10 -->
+    <phrase id="reportformsubject" value="Subject" />
+    <!-- v10 -->
+    <phrase id="reportformresponsetype" value="Response type" />
+    <!-- v10 -->
+    <phrase id="reportformresponsetypejson" value="JSON" />
+    <!-- v10 -->
+    <phrase id="reportformresponsetypefile" value="File" />
+    <!-- v10 -->
+    <phrase id="reportformshowcurrentfilter" value="Show filters" />
+    <!-- v10 -->
+    <phrase id="reportformurl" value="URL" />
+    <!-- v10 -->
+    <phrase id="reportgenerateddate" value="Report generated at " />
+    <!-- v10 -->
+    <phrase id="reset" value="Reset" />
+    <phrase id="resetallfilter" value="Reset all filters" class="icon-reset-search ewIcon" />
+    <!-- v8 -->
+    <phrase id="resetsearch" value="Reset search criteria" />
+    <phrase id="rptavg" value="AVG" />
+    <phrase id="rptcnt" value="COUNT" />
+    <phrase id="rptdtlrec" value=" detail records" />
+    <phrase id="rptgrandsummary" value="Grand Summary" />
+    <phrase id="rptmax" value="MAX" />
+    <phrase id="rptmin" value="MIN" />
+    <phrase id="rptpagesummary" value="Page Summary" />
+    <phrase id="rptsum" value="SUM" />
+    <phrase id="rptsumhead" value="Summary for %c: %v" />
+    <!-- v9 -->
+    <phrase id="savecurrentfilter" value="Save current filter" />
+    <phrase id="saveusername" value="Save my user name" />
+    <phrase id="search" value="Search" client="1" />
+    <!-- v10 -->
+    <phrase id="searchbtn" value="Filter Panel" class="glyphicon glyphicon-search ewIcon" />
+    <phrase id="selectall" value="(All)" />
+    <phrase id="selectbtn" value="Select" client="1" />
+    <!-- v10 -->
+    <phrase id="sendemailbtn" value="Send" client="1" />
+    <phrase id="sendemailsuccess" value="Email sent successfully" client="1" />
+    <phrase id="servercommunicationerror" value="An error occured while communicating to the server." />
+    <!-- v10 -->
+    <phrase id="sessionwillexpire" value="Your session will expire in %s seconds. Click OK to continue your session." client="1" />
+    <!-- v9 -->
+    <phrase id="sessionexpired" value="Your session has expired." client="1" />
+    <!-- v9 -->
+    <phrase id="showall" value="Show all" />
+    <phrase id="summary" value="Summary" />
+    <phrase id="summarycolon" value=": " />
+    <!-- v10 -->
+    <phrase id="tasks" value="Tasks" />
+    <phrase id="to" value="to" />
+    <phrase id="top" value="Top" />
+    <phrase id="total" value="Total" />
+    <phrase id="useradministrator" value="Administrator" client="1" />
+    <!-- v9 -->
+    <phrase id="useranonymous" value="Anonymous" client="1" />
+    <!-- v9 -->
+    <phrase id="userdefault" value="Default" client="1" />
+    <!-- v9 -->
+    <phrase id="username" value="User name" />
+    <phrase id="valuenotexist" value="Value does not exist" client="1" />
+    <!-- v8 -->
+    <phrase id="viewimage" value="Click to view image" />
+    <!-- v8 -->
+    <phrase id="week" value="Week" />
+    <phrase id="year" value="Year" />
+    <!-- Search Operators -->
+    <phrase id="=" value="&amp;nbsp;" />
+    <!-- v9 -->
+    <phrase id="equal" value="=" />
+    <!-- v9 -->
+    <phrase id="&lt;&gt;" value="&amp;lt;&amp;gt;" />
+    <phrase id="&lt;" value="&amp;lt;" />
+    <phrase id="&lt;=" value="&amp;lt;=" />
+    <phrase id="&gt;" value="&amp;gt;" />
+    <phrase id="&gt;=" value="&amp;gt;=" />
+    <phrase id="like" value="contains" />
+    <phrase id="not like" value="not contains" />
+    <phrase id="starts with" value="starts with" />
+    <phrase id="ends with" value="ends with" />
+    <phrase id="is null" value="is null" />
+    <phrase id="is not null" value="is not null" />
+    <phrase id="between" value="between" />
+    <phrase id="and" value="and" />
+    <phrase id="or" value="or" />
+    <phrase id="am" value="AM" />
+    <!-- v10 -->
+    <phrase id="pm" value="PM" />
+    <!-- v10 -->
+    <!-- Menu Prefix/Suffix -->
+    <phrase id="simplereportmenuitemprefix" value="" />
+    <phrase id="simplereportmenuitemsuffix" value="" />
+    <phrase id="detailsummaryreportmenuitemprefix" value="" />
+    <phrase id="detailsummaryreportmenuitemsuffix" value="" />
+    <phrase id="crosstabreportmenuitemprefix" value="" />
+    <phrase id="crosstabreportmenuitemsuffix" value="" />
+    <phrase id="chartreportmenuitemprefix" value="" />
+    <phrase id="chartreportmenuitemsuffix" value="" />
+    <!-- Advanced Filter -->
+    <phrase id="future" value="Future" />
+    <phrase id="past" value="Past" />
+    <phrase id="last14days" value="Last 14 days" />
+    <phrase id="last30days" value="Last 30 days" />
+    <phrase id="last7days" value="Last 7 days" />
+    <phrase id="next14days" value="Next 14 days" />
+    <phrase id="next30days" value="Next 30 days" />
+    <phrase id="next7days" value="Next 7 days" />
+    <phrase id="today" value="Today" />
+    <phrase id="tomorrow" value="Tomorrow" />
+    <phrase id="yesterday" value="Yesterday" />
+    <phrase id="lastmonth" value="Last month" />
+    <phrase id="nextmonth" value="Next month" />
+    <phrase id="thismonth" value="This month" />
+    <phrase id="lasttwoweeks" value="Last two weeks" />
+    <phrase id="lastweek" value="Last week" />
+    <phrase id="nexttwoweeks" value="Next two weeks" />
+    <phrase id="nextweek" value="Next week" />
+    <phrase id="thisweek" value="This week" />
+    <phrase id="lastyear" value="Last year" />
+    <phrase id="nextyear" value="Next year" />
+    <phrase id="thisyear" value="This year" />
+  </global>
+  <project>
+    <phrase id="footertext" value="&amp;copy;2017 e.World Technology Ltd. All rights reserved." />
+    <menu id="1">
+      <phrase id="menutext" value="user" />
+    </menu>
+    <menu id="2">
+      <phrase id="menutext" value="user type" />
+    </menu>
+    <menu id="3">
+      <phrase id="menutext" value="payment" />
+    </menu>
+    <menu id="4">
+      <phrase id="menutext" value="area" />
+    </menu>
+    <menu id="5">
+      <phrase id="menutext" value="cart" />
+    </menu>
+    <menu id="6">
+      <phrase id="menutext" value="city" />
+    </menu>
+    <menu id="7">
+      <phrase id="menutext" value="customized order" />
+    </menu>
+    <menu id="8">
+      <phrase id="menutext" value="event booking" />
+    </menu>
+    <menu id="9">
+      <phrase id="menutext" value="event booking detail" />
+    </menu>
+    <menu id="10">
+      <phrase id="menutext" value="event type" />
+    </menu>
+    <menu id="11">
+      <phrase id="menutext" value="feedback" />
+    </menu>
+    <menu id="12">
+      <phrase id="menutext" value="feedback image" />
+    </menu>
+    <menu id="13">
+      <phrase id="menutext" value="login" />
+    </menu>
+    <menu id="14">
+      <phrase id="menutext" value="membership" />
+    </menu>
+    <menu id="15">
+      <phrase id="menutext" value="offer/discount" />
+    </menu>
+    <menu id="16">
+      <phrase id="menutext" value="order" />
+    </menu>
+    <menu id="17">
+      <phrase id="menutext" value="order detail" />
+    </menu>
+    <menu id="18">
+      <phrase id="menutext" value="order replace" />
+    </menu>
+    <menu id="19">
+      <phrase id="menutext" value="order replace detail" />
+    </menu>
+    <menu id="20">
+      <phrase id="menutext" value="product" />
+    </menu>
+    <menu id="21">
+      <phrase id="menutext" value="product category" />
+    </menu>
+    <menu id="22">
+      <phrase id="menutext" value="product image" />
+    </menu>
+    <menu id="23">
+      <phrase id="menutext" value="rating" />
+    </menu>
+    <menu id="24">
+      <phrase id="menutext" value="request delivery" />
+    </menu>
+    <menu id="25">
+      <phrase id="menutext" value="state" />
+    </menu>
+    <menu id="26">
+      <phrase id="menutext" value="vendor advertisement" />
+    </menu>
+    <menu id="27">
+      <phrase id="menutext" value="vendor category" />
+    </menu>
+    <menu id="28">
+      <phrase id="menutext" value="view 4" />
+    </menu>
+    <table id="area">
+      <phrase id="tblcaption" value="area" />
+      <field id="pincode">
+        <phrase id="fldcaption" value="pincode" />
+      </field>
+      <field id="area_name">
+        <phrase id="fldcaption" value="area name" />
+      </field>
+      <field id="city_id">
+        <phrase id="fldcaption" value="city id" />
+      </field>
+    </table>
+    <table id="cart">
+      <phrase id="tblcaption" value="cart" />
+      <field id="user_id">
+        <phrase id="fldcaption" value="user id" />
+      </field>
+      <field id="product_id">
+        <phrase id="fldcaption" value="product id" />
+      </field>
+      <field id="quantity">
+        <phrase id="fldcaption" value="quantity" />
+      </field>
+    </table>
+    <table id="city">
+      <phrase id="tblcaption" value="city" />
+      <field id="city_id">
+        <phrase id="fldcaption" value="city id" />
+      </field>
+      <field id="city_name">
+        <phrase id="fldcaption" value="city name" />
+      </field>
+      <field id="state_id">
+        <phrase id="fldcaption" value="state id" />
+      </field>
+    </table>
+    <table id="customized_order">
+      <phrase id="tblcaption" value="customized order" />
+      <field id="customized_id">
+        <phrase id="fldcaption" value="customized id" />
+      </field>
+      <field id="customized_details">
+        <phrase id="fldcaption" value="customized details" />
+      </field>
+      <field id="quantity">
+        <phrase id="fldcaption" value="quantity" />
+      </field>
+      <field id="image">
+        <phrase id="fldcaption" value="image" />
+      </field>
+      <field id="product_id">
+        <phrase id="fldcaption" value="product id" />
+      </field>
+      <field id="amount">
+        <phrase id="fldcaption" value="amount" />
+      </field>
+      <field id="customer_id">
+        <phrase id="fldcaption" value="customer id" />
+      </field>
+      <field id="c_date">
+        <phrase id="fldcaption" value="c date" />
+      </field>
+      <field id="approval">
+        <phrase id="fldcaption" value="approval" />
+      </field>
+    </table>
+    <table id="event_booking">
+      <phrase id="tblcaption" value="event booking" />
+      <field id="event_booking_id">
+        <phrase id="fldcaption" value="event booking id" />
+      </field>
+      <field id="event_booking_date">
+        <phrase id="fldcaption" value="event booking Date" />
+      </field>
+      <field id="event_date">
+        <phrase id="fldcaption" value="event date" />
+      </field>
+      <field id="event_time">
+        <phrase id="fldcaption" value="event time" />
+      </field>
+      <field id="event_type_id">
+        <phrase id="fldcaption" value="event type id" />
+      </field>
+      <field id="customer_id">
+        <phrase id="fldcaption" value="customer id" />
+      </field>
+      <field id="event_status">
+        <phrase id="fldcaption" value="event status" />
+      </field>
+      <field id="cancellation_date">
+        <phrase id="fldcaption" value="cancellation date" />
+      </field>
+    </table>
+    <table id="event_booking_detail">
+      <phrase id="tblcaption" value="event booking detail" />
+      <field id="event_booking_id">
+        <phrase id="fldcaption" value="event booking id" />
+      </field>
+      <field id="product_id">
+        <phrase id="fldcaption" value="product id" />
+      </field>
+      <field id="quantity">
+        <phrase id="fldcaption" value="quantity" />
+      </field>
+      <field id="image">
+        <phrase id="fldcaption" value="image" />
+      </field>
+      <field id="price">
+        <phrase id="fldcaption" value="price" />
+      </field>
+      <field id="approval">
+        <phrase id="fldcaption" value="approval" />
+      </field>
+    </table>
+    <table id="event_type">
+      <phrase id="tblcaption" value="event type" />
+      <field id="event_type_id">
+        <phrase id="fldcaption" value="event type id" />
+      </field>
+      <field id="event_name">
+        <phrase id="fldcaption" value="event name" />
+      </field>
+    </table>
+    <table id="feedback">
+      <phrase id="tblcaption" value="feedback" />
+      <field id="feedback_id">
+        <phrase id="fldcaption" value="feedback id" />
+      </field>
+      <field id="feedback">
+        <phrase id="fldcaption" value="feedback" />
+      </field>
+      <field id="feedback_date">
+        <phrase id="fldcaption" value="feedback date" />
+      </field>
+      <field id="product_id">
+        <phrase id="fldcaption" value="product id" />
+      </field>
+      <field id="customer_id">
+        <phrase id="fldcaption" value="customer id" />
+      </field>
+    </table>
+    <table id="feedback_image">
+      <phrase id="tblcaption" value="feedback image" />
+      <field id="feedback_image_id">
+        <phrase id="fldcaption" value="feedback image id" />
+      </field>
+      <field id="feedback_image">
+        <phrase id="fldcaption" value="feedback image" />
+      </field>
+      <field id="feedback_id">
+        <phrase id="fldcaption" value="feedback id" />
+      </field>
+    </table>
+    <table id="login">
+      <phrase id="tblcaption" value="login" />
+      <field id="login_id">
+        <phrase id="fldcaption" value="login id" />
+      </field>
+      <field id="username">
+        <phrase id="fldcaption" value="username" />
+      </field>
+      <field id="password">
+        <phrase id="fldcaption" value="password" />
+      </field>
+      <field id="security_question">
+        <phrase id="fldcaption" value="security question" />
+      </field>
+      <field id="security_answer">
+        <phrase id="fldcaption" value="security answer" />
+      </field>
+      <field id="user_id">
+        <phrase id="fldcaption" value="user id" />
+      </field>
+    </table>
+    <table id="membership">
+      <phrase id="tblcaption" value="membership" />
+      <field id="membership_id">
+        <phrase id="fldcaption" value="membership id" />
+      </field>
+      <field id="membership_type">
+        <phrase id="fldcaption" value="membership type" />
+      </field>
+      <field id="membership_rate">
+        <phrase id="fldcaption" value="membership rate" />
+      </field>
+      <field id="membership_duration">
+        <phrase id="fldcaption" value="membership duration" />
+      </field>
+    </table>
+    <table id="offer2fdiscount">
+      <phrase id="tblcaption" value="offer/discount" />
+      <field id="offer2fdiscount_id">
+        <phrase id="fldcaption" value="offer/discount id" />
+      </field>
+      <field id="start_date">
+        <phrase id="fldcaption" value="start date" />
+      </field>
+      <field id="end_date">
+        <phrase id="fldcaption" value="end date" />
+      </field>
+      <field id="discount">
+        <phrase id="fldcaption" value="discount" />
+      </field>
+      <field id="vendor_id">
+        <phrase id="fldcaption" value="vendor id" />
+      </field>
+    </table>
+    <table id="order">
+      <phrase id="tblcaption" value="order" />
+      <field id="order_id">
+        <phrase id="fldcaption" value="order id" />
+      </field>
+      <field id="order_date">
+        <phrase id="fldcaption" value="order date" />
+      </field>
+      <field id="delivery_date">
+        <phrase id="fldcaption" value="delivery date" />
+      </field>
+      <field id="delivery_address">
+        <phrase id="fldcaption" value="delivery address" />
+      </field>
+      <field id="delivery_status">
+        <phrase id="fldcaption" value="delivery status" />
+      </field>
+      <field id="payment_mode">
+        <phrase id="fldcaption" value="payment mode" />
+      </field>
+      <field id="order_status">
+        <phrase id="fldcaption" value="order status" />
+      </field>
+      <field id="cancellation_date">
+        <phrase id="fldcaption" value="cancellation date" />
+      </field>
+      <field id="total_amount">
+        <phrase id="fldcaption" value="total amount" />
+      </field>
+      <field id="customer_id">
+        <phrase id="fldcaption" value="customer id" />
+      </field>
+      <field id="area_pincode">
+        <phrase id="fldcaption" value="area pincode" />
+      </field>
+    </table>
+    <table id="order_detail">
+      <phrase id="tblcaption" value="order detail" />
+      <field id="order_id">
+        <phrase id="fldcaption" value="order id" />
+      </field>
+      <field id="product_id">
+        <phrase id="fldcaption" value="product id" />
+      </field>
+      <field id="quantity">
+        <phrase id="fldcaption" value="quantity" />
+      </field>
+      <field id="price">
+        <phrase id="fldcaption" value="price" />
+      </field>
+      <field id="discount_price">
+        <phrase id="fldcaption" value="discount price" />
+      </field>
+    </table>
+    <table id="order_replace">
+      <phrase id="tblcaption" value="order replace" />
+      <field id="order_replace_id">
+        <phrase id="fldcaption" value="order replace id" />
+      </field>
+      <field id="date">
+        <phrase id="fldcaption" value="date" />
+      </field>
+      <field id="order_id">
+        <phrase id="fldcaption" value="order id" />
+      </field>
+    </table>
+    <table id="order_replace_detail">
+      <phrase id="tblcaption" value="order replace detail" />
+      <field id="order_replace_id">
+        <phrase id="fldcaption" value="order replace id" />
+      </field>
+      <field id="quantity">
+        <phrase id="fldcaption" value="quantity" />
+      </field>
+      <field id="reason">
+        <phrase id="fldcaption" value="reason" />
+      </field>
+      <field id="product_id">
+        <phrase id="fldcaption" value="product id" />
+      </field>
+    </table>
+    <table id="payment">
+      <phrase id="tblcaption" value="payment" />
+      <field id="payment_id">
+        <phrase id="fldcaption" value="payment id" />
+      </field>
+      <field id="payment_mode">
+        <phrase id="fldcaption" value="payment mode" />
+      </field>
+      <field id="amount">
+        <phrase id="fldcaption" value="amount" />
+      </field>
+      <field id="payment_date">
+        <phrase id="fldcaption" value="payment date" />
+      </field>
+      <field id="event_booking_id">
+        <phrase id="fldcaption" value="event booking id" />
+      </field>
+      <field id="payment_reference_type">
+        <phrase id="fldcaption" value="Payment reference type" />
+      </field>
+    </table>
+    <table id="product">
+      <phrase id="tblcaption" value="product" />
+      <field id="product_id">
+        <phrase id="fldcaption" value="product id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="name" />
+      </field>
+      <field id="description">
+        <phrase id="fldcaption" value="description" />
+      </field>
+      <field id="price">
+        <phrase id="fldcaption" value="price" />
+      </field>
+      <field id="unit_of_measurement">
+        <phrase id="fldcaption" value="unit of measurement" />
+      </field>
+      <field id="value">
+        <phrase id="fldcaption" value="value" />
+      </field>
+      <field id="quantity_in_hand">
+        <phrase id="fldcaption" value="quantity in hand" />
+      </field>
+      <field id="product_category_id">
+        <phrase id="fldcaption" value="product category id" />
+      </field>
+      <field id="vendor_id">
+        <phrase id="fldcaption" value="vendor id" />
+      </field>
+      <field id="offer2fdiscount_id">
+        <phrase id="fldcaption" value="offer/discount id" />
+      </field>
+      <field id="display_picture">
+        <phrase id="fldcaption" value="display picture" />
+      </field>
+      <field id="p_status">
+        <phrase id="fldcaption" value="p status" />
+      </field>
+    </table>
+    <table id="product_category">
+      <phrase id="tblcaption" value="product category" />
+      <field id="product_category_id">
+        <phrase id="fldcaption" value="product category id" />
+      </field>
+      <field id="category_name">
+        <phrase id="fldcaption" value="category name" />
+      </field>
+      <field id="sub_category_id">
+        <phrase id="fldcaption" value="sub category id" />
+      </field>
+    </table>
+    <table id="product_image">
+      <phrase id="tblcaption" value="product image" />
+      <field id="image_id">
+        <phrase id="fldcaption" value="image id" />
+      </field>
+      <field id="image">
+        <phrase id="fldcaption" value="image" />
+      </field>
+      <field id="product_id">
+        <phrase id="fldcaption" value="product id" />
+      </field>
+    </table>
+    <table id="rating">
+      <phrase id="tblcaption" value="rating" />
+      <field id="rating_id">
+        <phrase id="fldcaption" value="rating id" />
+      </field>
+      <field id="rating">
+        <phrase id="fldcaption" value="rating" />
+      </field>
+      <field id="product_id">
+        <phrase id="fldcaption" value="product id" />
+      </field>
+      <field id="user_id">
+        <phrase id="fldcaption" value="user id" />
+      </field>
+    </table>
+    <table id="request_delivery">
+      <phrase id="tblcaption" value="request delivery" />
+      <field id="request_delivery_id">
+        <phrase id="fldcaption" value="request delivery id" />
+      </field>
+      <field id="vendor_id">
+        <phrase id="fldcaption" value="vendor id" />
+      </field>
+      <field id="delivery_person_id">
+        <phrase id="fldcaption" value="delivery person id" />
+      </field>
+      <field id="is_accept">
+        <phrase id="fldcaption" value="is accept" />
+      </field>
+      <field id="order_id">
+        <phrase id="fldcaption" value="order id" />
+      </field>
+      <field id="pickup_area_pincode">
+        <phrase id="fldcaption" value="pickup area pincode" />
+      </field>
+    </table>
+    <table id="state">
+      <phrase id="tblcaption" value="state" />
+      <field id="state_id">
+        <phrase id="fldcaption" value="state id" />
+      </field>
+      <field id="state_name">
+        <phrase id="fldcaption" value="state name" />
+      </field>
+    </table>
+    <table id="user">
+      <phrase id="tblcaption" value="user" />
+      <field id="user_id">
+        <phrase id="fldcaption" value="user id" />
+      </field>
+      <field id="user_name">
+        <phrase id="fldcaption" value="user name" />
+      </field>
+      <field id="user_id_proof">
+        <phrase id="fldcaption" value="user id proof" />
+      </field>
+      <field id="email_address">
+        <phrase id="fldcaption" value="email address" />
+      </field>
+      <field id="mobile">
+        <phrase id="fldcaption" value="mobile" />
+      </field>
+      <field id="display_picture">
+        <phrase id="fldcaption" value="display picture" />
+      </field>
+      <field id="addr">
+        <phrase id="fldcaption" value="addr" />
+      </field>
+      <field id="vendor_category_id">
+        <phrase id="fldcaption" value="vendor category id" />
+      </field>
+      <field id="user_type_id">
+        <phrase id="fldcaption" value="user type id" />
+      </field>
+      <field id="area_pincode">
+        <phrase id="fldcaption" value="area pincode" />
+      </field>
+      <field id="membership_id">
+        <phrase id="fldcaption" value="membership id" />
+      </field>
+      <field id="membership_start_date">
+        <phrase id="fldcaption" value="membership start date" />
+      </field>
+      <field id="skill_certificate">
+        <phrase id="fldcaption" value="skill certificate" />
+      </field>
+      <field id="commission_for_del_person">
+        <phrase id="fldcaption" value="commission for del person" />
+      </field>
+      <field id="u_status">
+        <phrase id="fldcaption" value="u status" />
+      </field>
+    </table>
+    <table id="user_type">
+      <phrase id="tblcaption" value="user type" />
+      <field id="user_type_id">
+        <phrase id="fldcaption" value="user type id" />
+      </field>
+      <field id="user_type">
+        <phrase id="fldcaption" value="user type" />
+      </field>
+    </table>
+    <table id="vendor_advertisement">
+      <phrase id="tblcaption" value="vendor advertisement" />
+      <field id="v_ad_id">
+        <phrase id="fldcaption" value="v ad id" />
+      </field>
+      <field id="v_ad_name">
+        <phrase id="fldcaption" value="v ad name" />
+      </field>
+      <field id="images2fvideos">
+        <phrase id="fldcaption" value="images/videos" />
+      </field>
+      <field id="images2fvideos_description">
+        <phrase id="fldcaption" value="images/videos description" />
+      </field>
+      <field id="vendor_id">
+        <phrase id="fldcaption" value="vendor id" />
+      </field>
+    </table>
+    <table id="vendor_category">
+      <phrase id="tblcaption" value="vendor category" />
+      <field id="vendor_category_id">
+        <phrase id="fldcaption" value="vendor category id" />
+      </field>
+      <field id="category_name">
+        <phrase id="fldcaption" value="category name" />
+      </field>
+    </table>
+    <table id="view4">
+      <phrase id="tblcaption" value="view 4" />
+      <field id="user_id">
+        <phrase id="fldcaption" value="user id" />
+      </field>
+      <field id="user_name">
+        <phrase id="fldcaption" value="user name" />
+      </field>
+      <field id="email_address">
+        <phrase id="fldcaption" value="email address" />
+      </field>
+      <field id="mobile">
+        <phrase id="fldcaption" value="mobile" />
+      </field>
+      <field id="addr">
+        <phrase id="fldcaption" value="addr" />
+      </field>
+      <field id="area_name">
+        <phrase id="fldcaption" value="area name" />
+      </field>
+      <field id="city_name">
+        <phrase id="fldcaption" value="city name" />
+      </field>
+      <field id="user_type">
+        <phrase id="fldcaption" value="user type" />
+      </field>
+    </table>
+  </project>
+</ew-language>

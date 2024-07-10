@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configuration date="2022/02/20" author="e.World Technology Ltd.">
+  <project id="{e076bf17-72b6-42b0-900b-e8c36042bfb6}" file="" name="project1" product="PHPReportMaker" version="10.0" datetime="2022/02/20 13:51:33" languagefolder="phprptlang" userlevel="-2,&quot;Anonymous&quot;,0;">
+    <table id="area" name="area" caption="area" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="cart" name="cart" caption="cart" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="city" name="city" caption="city" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="customized_order" name="customized_order" caption="customized order" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="event_booking" name="event_booking" caption="event booking" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="event_booking_detail" name="event_booking_detail" caption="event booking detail" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="event_type" name="event_type" caption="event type" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="feedback" name="feedback" caption="feedback" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="feedback_image" name="feedback_image" caption="feedback image" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="login" name="login" caption="login" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="membership" name="membership" caption="membership" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="offer2Fdiscount" name="offer/discount" caption="offer/discount" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="order" name="order" caption="order" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="order_detail" name="order_detail" caption="order detail" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="order_replace" name="order_replace" caption="order replace" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="order_replace_detail" name="order_replace_detail" caption="order replace detail" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="payment" name="payment" caption="payment" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="product" name="product" caption="product" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="product_category" name="product_category" caption="product category" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="product_image" name="product_image" caption="product image" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="rating" name="rating" caption="rating" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="request_delivery" name="request_delivery" caption="request delivery" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="state" name="state" caption="state" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="user" name="user" caption="user" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="user_type" name="user_type" caption="user type" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="vendor_advertisement" name="vendor_advertisement" caption="vendor advertisement" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="vendor_category" name="vendor_category" caption="vendor category" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+    <table id="view4" name="view4" caption="view 4" userlevel="-2,&quot;Anonymous&quot;,0;" priv="1" />
+  </project>
+</configuration>
